@@ -78,7 +78,7 @@ namespace Uptime.Services
                     service.TimeInitialized = timeInitialized;
                     service.FlavorText = flavorText;
                 }
-                await Task.Delay(60000);
+                await Task.Delay(180000);
             }
         }
     }
